@@ -1,5 +1,33 @@
 body {
     background-color: lightslategray;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+}
+
+#linkbar {
+    height: 100%; 
+    width: 20%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 5px; 
+    left: 0;
+    border-radius: 5px;
+    padding-top: 10px;
+    background-color:black;
+}
+
+#content {
+    height: 100%; 
+    width: 78%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 5px; 
+    margin-left: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:black;
+    text-align: center;
 }
 
 .mainheader {
@@ -7,7 +35,7 @@ body {
     background-color: lightseagreen;
     font-family: arial;
     font-size: 24px;
-    font-weight: 800px;
+    font-weight: 900;
     text-align: center;    
 }
 
